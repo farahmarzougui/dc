@@ -1,0 +1,386 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto,arial sans-serif;
+    color: #747474;
+
+}
+header{
+    box-shadow: 0 -2px 10px rgb (0 0 0/15%);
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255);
+}
+::selection{
+    color: white;
+    background-color: #00b39b;
+}
+
+p{
+    font-size: 0.87rem;
+}
+header img{
+    width:180px;
+
+}
+header nav {
+   display: flex;
+   justify-content:space-between;
+   width: 80%;
+   margin: 0 auto 0 auto;
+   padding:12px;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+
+}
+header nav ul li {
+   margin: 20px;
+}
+header nav ul li a:hover{
+    color: #00b39b;
+
+}
+
+
+.f{
+    color: #00b39b;
+}
+.hope{
+    position: absolute;
+    flex-direction: column;
+    background-color: #f6f8f8;
+    width: 300px;
+    display: none;
+    
+}
+.sky{
+
+    position: relative;
+
+}
+.hope ol {
+    padding: 5px 12p;
+  
+}
+.sky:hover   >  .hope{
+    display: flex;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+main .good{
+    text-align: center;
+}
+main .good>*{
+    margin-top: 30px;
+
+}
+.good img{
+    width: 30px;
+}
+.good p{
+    font-size: 2.125rem;
+    color:#00b39b ;
+}
+
+.parag {
+    display: flex;
+   margin-top:80px;
+   justify-content: space-around;
+}
+.parag p {
+    width: 45%;
+    margin-top: 5px;
+}
+.all{
+    background-color:white;
+    margin-top: 70px;
+    display:flex;
+    justify-content: space-around;
+    height: 300px;
+
+}
+.all .carte{ 
+    background-color:#00ccb1;
+    width: 200px;
+    padding: 2em 2em ;
+    border-radius: 8px;
+
+
+
+
+}
+.carte >*{
+    color: white;
+} 
+.all select{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-top:  80px;
+    display: flex;
+    justify-content: end;
+}
+.carte h1{
+    font-weight: 300;
+    font-size: 1.4erem;
+}
+.all .carte2{ 
+    background-color:#3d83df;;
+    width: 200px;
+     padding: 2em 2em ;
+    border-radius: 8px;
+
+}
+.carte2 >*{
+    color: white;
+}
+ .carte2 h1{
+    font-weight: 300;
+    font-size: 1.4erem;
+
+}
+.all .carte3{ background-color:#1b2734;
+    width: 200px;
+     padding: 2em 2em ;
+    border-radius: 8px;
+
+}
+.carte3 >*{
+    color: white;
+}
+ .carte3 h1{
+    font-weight: 300;
+    font-size: 1.4erem;
+
+
+}
+.brands{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 40px;
+    
+}
+.brands p{
+    font-size: 1.5rem;
+    width: 20%;
+    color: #00b39b;
+
+}  .brand{
+        width:60%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .brand svg{
+        width: 120px;
+        margin-left: 20px;
+        fill: rgb(180, 180, 180);
+    }
+    .brand svg :hover{
+        fill:#00b39b;
+    }
+    .farah{
+     
+        width: 100%;
+        height: 500px;
+        background-color: #e5faf8;
+        background-image: url('./imges/logo.png');
+        background-repeat: no-repeat;
+        background-position-x:50px;
+        background-position-y:200px; ;
+
+
+    }
+    .big{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+       padding-top: 70px;
+       justify-content: space-around;
+
+    }
+    .big .bartie{
+        width: 30%;
+    }
+    .cards
+    {
+        display: flex;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        width: 400px;
+        height: 300px;
+        
+        padding: 0;
+    }
+        .card{
+            width:180px;;
+            height: 150px;
+            margin-left: 20px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items:center ;
+            justify-content: center;
+        }
+.look {
+    margin-top: 15px;
+}
+.card h3{
+    font-size: 16px;
+}
+.cards p{
+    font-size: 10px;
+    text-align: center;
+
+display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.cards img  {
+    
+        max-width: 100%;
+        height: auto;
+
+}
+.cards h1{
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: 0.5em 0;
+}
+.ok{
+            
+width: 60%;
+height:800px;
+    margin:0 auto;
+}
+.tibo h1{
+    font-size: 2.1428571429em;
+color: #00b39b;
+font-family: Work Sans,Arial,sans-serif;
+    font-weight: 30;
+}
+.tibo p{
+
+margin: 1.6em 0;
+
+display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 20px;
+}
+.papa{
+    margin: 0 auto;
+    width: 70%;
+    height: 1500px;
+    display:flex;
+    flex-wrap: wrap;
+   
+
+}
+.papa section{
+   margin-top: 50px;
+   width: 300px;
+   margin-left: 45px;
+   border-radius: 10%;
+
+       
+    }
+    .papa section img{
+        border-radius: 3% 3% 0 0;
+        width: 150px;
+        height:200px;
+    
+    }
+    .ma {
+        display: flex;
+        justify-content:space-around;
+    
+    }
+    .bleu{
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        outline: 0;
+        border: 0;
+        border-radius: 4px;
+        padding: 1.1666666667em 1.5em;
+        background: #3d83df;
+        font-family: Roboto,Arial,sans-serif;
+        line-height: 1em;
+        color: #fff;
+        font-weight: 700;
+        letter-spacing: .04em;
+        font-size: .65rem;
+        text-align: center;
+        text-decoration: none!important;
+        text-transform: uppercase;
+        transition: all .2s ease 0s;
+    }
+    
+.parte{
+    margin: 0 none;
+    font-size: 2.1428571429em;
+    color: #333;
+    margin-bottom: 0.75em;
+    font-size: medium;
+    margin-left:280px;
+
+}
+.green{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .65rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+}
+
+.main-footer p {
+    margin-bottom: 0.4em;
+}
+.main-footer .section__inner, .main-footer p {
+    font-size: 12px;
+    color: #ababab;
+}
+p {
+    margin: 1.6em 0;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.main-footer {
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;}
